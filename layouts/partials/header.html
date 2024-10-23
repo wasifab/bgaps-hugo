@@ -1,0 +1,32 @@
+<div class="max-w-[1280px] mx-auto flex flex-col gap-[20px] py-[15px] px-[25px]">
+    <div class="flex justify-between items-center bg-secondary rounded-full py-1 px-4 text-white">
+        <div class="flex items-center">
+            <span class="mr-2">✉️</span>
+            <span class="text-sm">email@email.com.au</span>
+        </div>
+        <div class="flex items-center">
+            <span class="text-sm">Link to latest news or info on your latest project you'd like to highlight...</span>
+            <button class="absolute right-0 top-1/2 transform -translate-y-1/2 text-white hover:text-highlightOrange transition-colors duration-200" aria-label="Close">
+                &times;
+            </button>
+         </div>
+         <div class="flex items-center">
+            <span class="mr-2"></span>
+            
+            <span class="text-sm">+61 0414 301 080</span>
+         </div>
+    </div>
+    <header class="flex justify-between items-center">
+        {{ partial "logo.html" . }}
+        <nav>
+            <ul class="flex gap-12">
+                <li><a href="/about" class="nav-link">About</a></li>
+                <li><a href="/services" class="nav-link">Services</a></li>
+                <li><a href="/major-projects" class="nav-link">Major Projects</a></li>
+                <li><a href="/major-clients" class="nav-link">Major Clients</a></li>
+                <li><a href="/links" class="nav-link">Links</a></li>
+            </ul>
+        </nav>
+        {{ partial "button.html" (dict "text" "Enquire Now" "href" "/contact" "class" "bg-primary") }}
+    </header>
+</div>

@@ -1,0 +1,5 @@
+{{ $original := resources.Get "images/logos/full-colour.png" }}
+{{ $logo := $original.Resize "300x webp q100" }}
+<img src="{{ $logo.RelPermalink }}" alt="Logo" width="150`" height="mx-auto">
+
+
