@@ -20,7 +20,7 @@
 
   @layer components {
     .nav-link {
-      @apply text-gray-600 hover:text-highlightOrange font-light text-[14px] font-light transition-colors duration-[250ms];
+      @apply text-gray-600 hover:text-highlightOrange text-[14px] transition-colors duration-[250ms];
     }
   }
 
