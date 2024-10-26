@@ -34,6 +34,7 @@
       "flex-col",
       "font-bold",
       "gap-12",
+      "gap-4",
       "gap-[-4px]",
       "gap-[20px]",
       "gap-[48px]",
@@ -43,6 +44,8 @@
       "justify-between",
       "justify-center",
       "leading-[72px]",
+      "m",
+      "max-w-",
       "max-w-[1280px]",
       "mr-2",
       "mx-auto",
@@ -61,10 +64,21 @@
       "text-white",
       "top-1/2",
       "transform",
-      "transition-colors"
+      "transition-colors",
+      "w",
+      "w-",
+      "w-1",
+      "w-100",
+      "w-[600px]",
+      "w-[700px]",
+      "w-[800]",
+      "w-[800px]",
+      "w-[900px]",
+      "w-[]",
+      "w-auto",
+      "w-full",
+      "w-{800}"
     ],
-    "ids": [
-      "container"
-    ]
+    "ids": null
   }
 }
