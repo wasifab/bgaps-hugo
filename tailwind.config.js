@@ -15,6 +15,7 @@ module.exports = {
         secondary: 'var(--color-secondary)',
         highlightOrange: 'var(--color-highlight-orange)',
         highlightBlue: 'var(--color-highlight-blue)',
+        
       },
     },
   },

@@ -2,6 +2,7 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+
 :root {
   --color-primary: #093642;
   --color-secondary: #162124;
@@ -16,24 +17,6 @@
     background-color: var(--background-color);
   }
 }
-
-@layer components {
-    .h1 {
-      @apply text-4xl font-bold mb-4;
-    }
-    .h2 {
-      @apply text-3xl font-semibold mb-3;
-    }
-    .h3 {
-      @apply text-2xl font-semibold mb-2;
-    }
-    .h4 {
-      @apply text-xl font-medium mb-2;
-    }
-    .paragraph {
-      @apply text-base mb-4;
-    }
-  }
 
   @layer components {
     .nav-link {
